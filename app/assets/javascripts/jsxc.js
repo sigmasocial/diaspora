@@ -37,11 +37,9 @@ $(document).ready(function() {
             onlogin: true
           }
         });
-        jsxc.gui.changePresence('online');
       } else {
         console.error('No token found! Authenticated!?');
       }
     }, 'json');
   }
 });
-
